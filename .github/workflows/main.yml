@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     # Блок services аналогичен docker-compose.yml
     services:
+
       postgres:
         image: postgres:13.10
         # Указываем имя тестовой базы, имя и пароль пользователя в открытом виде,
