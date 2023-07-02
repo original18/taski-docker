@@ -10,7 +10,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['84.252.139.152', '127.0.0.1', 'localhost', 'babaha.dns.net']
 
-
 # Application definition
 
 INSTALLED_APPS = [
