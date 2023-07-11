@@ -8,7 +8,7 @@ volumes:
 #list of containers
 
 services:
-  db:
+  dbi:
     image: postgres:13.10
     env_file: .env
     volumes:
@@ -20,7 +20,7 @@ services:
     volumes:
       - static:/backend_static
     depends_on:
-      - db
+      - dbi
 
   frontend:
     env_file: .env
